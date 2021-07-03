@@ -8,6 +8,9 @@ b = 255
 
 @client.event
 async def on_ready():
+    global rainbowrolee
+    roleguild = client.get_guild(743426357958148136) # Your guild
+    rainbowrolee = get(roleguild.roles, id=860817065559982091) # Your rainbow role
     rainbowrole.start()
 
     
@@ -25,4 +28,3 @@ async def rainbowrole():
         b = b + 15
         g = g - 15
     await rainbowrolee.edit(colour=discord.Color.from_rgb(r, g, b))
-    
