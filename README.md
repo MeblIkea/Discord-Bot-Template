@@ -1,6 +1,5 @@
 # Discord-Bot-Template
-In here, you will find a lot of template for your Discord bot with Python. 
-You just need to add Cogs.
+In here, you will find a lot of template for your Discord bot with Python.
 
 I call "discord.Client" as "client"
 
