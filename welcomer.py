@@ -2,6 +2,8 @@
 from PIL import Image
 from io import BytesIO
 
+channelid = ##################
+
 intents = discord.Intents.default()
 intents.members = True
 
@@ -9,7 +11,7 @@ client = discord.Client(command_prefix='', intents=intents)
 
 @client.event
 async def on_member_join(member):
-    channel = client.get_channel(859761373693214750)
+    channel = client.get_channel(channelid)
     await channel.send(f'{member} join')
     
     response = requests.get(member.avatar_url)
