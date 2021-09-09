@@ -4,6 +4,8 @@
 # "channel_inutile" is a private channel where the bot can post pictures for embeds
 # Add a suggestion channel too
 # You have to translate, I don't have time for it, sorry (FR to English), send me your translations on discord please.
+#
+# Take the suggestions.json
 
 suggestion_channel = 000000000000000000
 channel_inutile = 000000000000000000
