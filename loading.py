@@ -2,6 +2,7 @@
 #
 # Place this where you want to invoke it:
 # await loading(channel=ctx.channel)
+color = 0x000000
 
 
 async def loading(channel):
@@ -14,5 +15,5 @@ async def loading(channel):
 
 
 async def bloading(message, char, dot):
-    embed = discord.Embed(title=f"Loading{dot}", description=char, color=0x00349a)
+    embed = discord.Embed(title=f"Loading{dot}", description=char, color=color)
     await message.edit(embed=embed)
